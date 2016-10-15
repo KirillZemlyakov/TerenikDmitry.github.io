@@ -1,23 +1,24 @@
-body{
+*{
+	padding: 0px;
 	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
 	background-color: #41772A;
 	font-family: 'Open Sans', sans-serif;
 }
 
 hr{
-	margin: 0px;
 	color: white;
 	border-style: solid;
 }
 
 h1{
-	margin: 0px;
-	padding: 20px 0px;
 	font-size: 10vmin;
 }
 
 .page{
-	box-sizing: border-box;
 	padding: 0px 10%;
 	height: 100vh;
 	background-repeat: no-repeat;
@@ -38,10 +39,11 @@ h1{
 	background-image: url("background/back-3.jpg");
 }
 .page>.content>p{
-	padding-top: 1vmin;
 	font-size: 3vmin;
 }
+
 .logo{
+	position: relative;
 	display: flex;
 	justify-content: center;
 }
@@ -50,4 +52,15 @@ h1{
 	width: 20vw;
 	height: 20vw;
 	border-radius: 50%;
+}
+
+.label{
+	position: fixed;
+	width: 10%;
+	text-align: center;
+	font-size: 3vmin;
+	color: white;
+	top: 0px;
+	right: 0px;
+	background: rgb(173,61,41);
 }
