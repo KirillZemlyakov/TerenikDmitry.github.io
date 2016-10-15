@@ -1,0 +1,53 @@
+body{
+	margin: 0px;
+	background-color: #41772A;
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+	margin: 0px;
+	color: white;
+	border-style: solid;
+}
+
+h1{
+	margin: 0px;
+	padding: 20px 0px;
+	font-size: 10vmin;
+}
+
+.page{
+	box-sizing: border-box;
+	padding: 0px 10%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+.page-1{
+	background-position: center bottom;
+	background-image: url("background/back-1.jpg");
+}
+.page-2{
+	background-position: center top;
+	background-image: url("background/back-2.jpg");
+}
+.page-3{
+	background-position: center bottom;
+	background-image: url("background/back-3.jpg");
+}
+.page>.content>p{
+	padding-top: 1vmin;
+	font-size: 3vmin;
+}
+.logo{
+	display: flex;
+	justify-content: center;
+}
+.logo>img{
+	margin: 20px 0px;
+	width: 20vmin;
+	min-width: 100px;
+	border-radius: 50%;
+}
